@@ -9,7 +9,6 @@
 #
 
 name: Build OpenWrt-Raspi4
-
 on:
   watch:
     types: started
@@ -22,7 +21,6 @@ on:
         default: 'false'
 #  schedule:
 #    - cron: 0 8 * * 5
-
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
